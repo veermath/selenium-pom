@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Functional Test">
+	<test name="functional">
+		<classes>
+			<class name="in.amazon.testdrive.AmazonTestExecutor"/>
+		</classes>
+	</test>
+</suite>

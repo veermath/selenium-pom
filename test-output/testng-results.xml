@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="143946" started-at="2016-10-26T02:52:11Z" finished-at="2016-10-26T02:54:35Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="143946" started-at="2016-10-26T02:52:11Z" finished-at="2016-10-26T02:54:35Z">
+      <class name="in.amazon.testdrive.AmazonTestExecutor">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:in.amazon.testdrive.AmazonTestExecutor@51efea79]" name="initialize" is-config="true" duration-ms="21625" started-at="2016-10-26T08:22:11Z" finished-at="2016-10-26T08:22:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="favouriteAuthor(java.lang.String, java.lang.String)[pri:0, instance:in.amazon.testdrive.AmazonTestExecutor@51efea79]" name="favouriteAuthor" duration-ms="17057" started-at="2016-10-26T08:22:35Z" data-provider="amazondata" finished-at="2016-10-26T08:22:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Abdul Kalam]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[A.P.J. Abdul Kalam]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- favouriteAuthor -->
+        <test-method status="PASS" signature="lightningDeal(java.lang.String)[pri:0, instance:in.amazon.testdrive.AmazonTestExecutor@51efea79]" name="lightningDeal" duration-ms="66737" started-at="2016-10-26T08:22:52Z" data-provider="amazondata" finished-at="2016-10-26T08:23:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iphone]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lightningDeal -->
+        <test-method status="PASS" signature="leastPriceProduct(java.lang.String)[pri:0, instance:in.amazon.testdrive.AmazonTestExecutor@51efea79]" name="leastPriceProduct" duration-ms="28343" started-at="2016-10-26T08:23:59Z" data-provider="amazondata" finished-at="2016-10-26T08:24:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["500"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- leastPriceProduct -->
+        <test-method status="PASS" signature="checkCartItems()[pri:0, instance:in.amazon.testdrive.AmazonTestExecutor@51efea79]" name="checkCartItems" duration-ms="4975" started-at="2016-10-26T08:24:28Z" data-provider="amazondata" finished-at="2016-10-26T08:24:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCartItems -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:in.amazon.testdrive.AmazonTestExecutor@51efea79]" name="closeBrowser" is-config="true" duration-ms="1931" started-at="2016-10-26T08:24:33Z" finished-at="2016-10-26T08:24:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- in.amazon.testdrive.AmazonTestExecutor -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
